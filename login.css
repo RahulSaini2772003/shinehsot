@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: url(images/lgbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 168px;
+}
+
+.cont {
+    margin: 167px 3px 3px 205px;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 27%;
+    height: 140%;
+    padding: 34px;
+    border-radius: 27px;
+  }
+.cont h3,p{
+    text-align: center;
+
+
+}
+.p{
+    color: #00ff28d4;
+    padding: 25px 0 0px 0;
+    font-size: 20px;
+}
+input{
+    width: 71%;
+    margin: 29px 0 0 28px;
+    padding: 10px 0 0 0px;
+    font-size: 17px;
+    border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #00ffc3;
+    color: #00ffb7;
+  }
+.btn{
+    font-size: 22px;
+    padding: 7px 17px 6px 17px;
+    border-radius: 25px;
+    margin: 33px 0 0 130px;
+    background-color: #00db2c;
+}
+.h1{
+    padding: 3px 0 0 100px;
+}
+@media only screen and (max-width: 1280px){
+.cont{
+    margin: 154px 0 0 47px;
+    width: 53%;
+}
+.h1{
+    padding: 0px 0 0 11px;
+}
+.btn{
+    margin: 25px 0 0 40px;
+    
+}
+
+}

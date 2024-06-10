@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoimgg{
+        width: 15rem;
+    height: auto;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 95px 0px 5vw;
+}
+.navbar{
+    display: flex;
+    height: 87px;
+    top: 0;
+    transition: all 1s ease-in-out;
+
+}
+
+.nav-list{
+    width: 100%;
+    background-color: plum;
+    display: flex;
+}
+.nav-list li{
+ list-style: none;
+ padding: 26px 30px;
+
+}
+.prrw{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+
+.h{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+        
+}
+.a{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+.e{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+.s{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+.aa{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+.c{
+text-decoration: none;
+color: red;
+justify-content: center;
+display: flex;
+text-align: center;
+font-size: 20px;
+}
+.btn{
+ font-size: 20px;
+    
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/img11.jpg");
+    background-size: cover;
+    height: 80vh;
+
+
+}
+.bg{
+    display: flex;
+    background-size: cover;
+    width: 150vw;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Cairo', cursive; */
+}
+.firsthalf{
+    width: 80%;
+    font-size: x-large;
+    color: white;
+    margin: 100px 0 100px 0;
+}
+
+.txt-bigg{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+.txt-big{
+    text-align: center;
+    padding: 25px 0 25px 0;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 53px;
+    font-weight: 500;
+
+}
+.txt-small{
+    font-family: 'Cairo', sans-serif;
+}
+.btn{
+    color: white;
+    background-color: rgb(255, 1, 1);
+    align-items: center;
+    border-radius: 61px;
+    padding: 6px 13px 0px 13px;
+    height: 30px;
+    text-decoration: none;
+    margin: 25px 11vw 0 0px;
+    border-color: red;
+    margin: 25px 0 0 15vw;
+    font-size: 16px;
+}
+.secright{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 83%;
+    margin: auto;
+    font-size: 18px;
+}
+.secleft{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 83%;
+    margin: auto;
+    flex-direction: row-reverse;
+    font-size: 18px;
+}
+.iwsecondhalf{
+    max-width: 24%;
+    padding: 0px 0px 0px 74px;
+}
+.iwsecondhalfleft{
+    max-width: 24%;
+    padding: 0px 115px 0px 0;
+}
+.imfluid{
+   width: 21vw;
+}
+.bg1{
+    background-color: #e3dd7e;
+}
+.bg2{
+    background-color: #e19999;
+}
+.bg3{
+    background-color: #c8abec;
+}
+.bg4{
+    background-color: #94ecb2;
+}
+/* .f1 ul a{
+    background-color: red;
+} */
+.f1{
+    justify-content: center;
+    align-items: center;
+}
+.bd{
+    /* font-family: 'segoe UI'; */
+    font-weight: 400;
+    background-color: #ededed;
+
+}
+.footer{
+    padding: 40px 0 0 0;
+    background-color: #fff;
+
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+
+}
+.footer .social a{
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: all 0.6s ease;
+}
+.footer .social a:hover{
+    opacity: 1;
+    font-size: 31px;
+    transition: all 0.6s ease;
+}
+
+.footer ul{
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    color: blue;
+}
+.footer ul li:hover{
+    opacity: 1;
+    color: red;
+}
+.footer .copyright{
+    margin-top: 25px;
+    font-size: 16px;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.footer .add{
+    /* width: 300px; */
+    text-align: center;
+}
+.copy p{
+    max-width: 362px;
+    margin: auto;
+    padding-top: 29px;
+    padding-bottom: 15px
+
+    
+}
+.cnn{
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 0 0 27px 0;
+}
+.copy{
+    justify-items: center;
+    align-items: center;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 32px;
+}
+.line{
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1280px){
+    .secright{
+        height: unset;
+        padding: 0 0 50px 0;
+    }
+    .secleft{
+        height: unset;
+        padding: 0 0 50px 0;
+    }
+    .txt-big {
+        font-size: 50px;
+        /*font-weight: 600;*/
+    }
+   .box-main{
+        height: unset;
+    }
+    .ss{
+    display: none;
+    }
+    .nav-list{
+        flex-direction: column;
+        transition: all 1s ease-out;
+    }
+    .btn{
+        color: white;
+        background-color: rgb(255, 1, 1);
+        align-items: center;
+        border-radius: 61px;
+        padding: 0;
+        height: 30px;
+        text-decoration: none;
+        border-color: red;
+        margin: auto;
+        opacity: 0;
+        font-size: 0px;
+    }
+    .burger{
+        display: block;
+        
+    }
+    .h-nav{
+        height: 500px;
+        transition: all 1s ease-out;
+
+    }
+    .h{
+        opacity: 0;
+        font-size: 0px;
+        
+    }
+    .a{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .e{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .s{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .aa{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .c{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .v-op{
+        opacity: 1;
+        font-size: 20px;
+        transition: all 0.5s ease-out;
+    }
+    .v-opp{
+        opacity: 1;
+        font-size: 20px;
+        margin: 10px 43% 40px 40%;
+        padding: 5px 65px 3px 20px;
+        transition: all 0.5s ease-out;
+    }
+    .logo{
+        max-width: 214px;
+        padding: 5px 0px 0px 0vw;
+        margin: 0px auto 10px auto;
+    }
+}
+@media only screen and (max-width: 686px){
+    .firsthalf p {
+    font-size: 15px;
+    }
+    .txt-big {
+        font-size: 50px;
+        /*font-weight: 600;*/
+    }
+    .box-main{
+        height: unset;
+    }
+    .txt-big{
+        font-size: 50px;
+    }
+    .ss{
+    display: none;
+    }
+    .secright{
+        flex-direction: column-reverse;
+        height: unset;
+        justify-content: center;
+        padding: 50px 0 50px 0;
+        
+    }
+    .cn{
+        padding: 50px 0 50px 0;
+    }
+    .secleft{
+        flex-direction: column-reverse;
+        height: unset;
+        justify-content: center;
+        padding: 50px 0 50px 0;
+        
+    }
+    .iwsecondhalf{
+        padding: 0;
+    
+    }
+    .iwsecondhalfleft{
+        padding: 0;
+    }
+
+}
+.nav-list li ul{
+    display: none;
+    padding: 8px 0 0 0;
+    margin: 4px 0 0 0px;
+    position: absolute;
+
+
+} 
+.nav-list li:hover > ul{
+    display: block;
+}
+.nav-list li ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    margin: 0px 0px 0px -43px;
+    font-size: 19px;
+    background: plum;
+    padding: 15px 0px 19px 0px;
+    
+}
+.nav-list li ul li a{
+    opacity: 0.6;
+    font-size: 15px;
+    transition: all ease 0.8s;
+}
+.nav-list li ul li a:hover{
+    opacity: 1;
+    font-size: 20px;
+    transition: all ease 0.8s;
+}
+.nav-list li a:hover {
+  color: blue;
+}
